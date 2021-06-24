@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/figma"
+    tools:context=".PersonFragment">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/oval"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/pencil"
+                android:src="@drawable/pencil_edit"
+                android:layout_marginStart="290dp"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/some_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="@string/resur"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/maga_gmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/maga_gmail" />
+
+        <TextView
+            android:id="@+id/some_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="2dp"
+            android:text="@string/nomer" />
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/path"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/iconr" />
+
+            <TextView
+                android:id="@+id/coments"
+                android:text="Оставить отзыв"
+                android:layout_marginStart="17dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/circle"
+                android:src="@drawable/circle_arrow_right"
+                android:layout_marginStart="120dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+           <ImageView
+               android:id="@+id/setting"
+               android:src="@drawable/setting"
+               android:layout_width="24dp"
+               android:layout_height="24dp"/>
+
+            <TextView
+                android:id="@+id/sett"
+                android:layout_marginStart="17dp"
+                android:text="Настройки"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/circle2"
+                android:src="@drawable/circle_arrow_right"
+                android:layout_marginStart="145dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ellipse_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/ellipse"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
